@@ -8,7 +8,7 @@
 <meta property="og:title" content="Highflow Performance Ltd | Performance Fabrication &amp; Tuning, Omanawa">
 <meta property="og:description" content="Custom stainless exhausts, turbo manifolds, engine conversions and Link ECU tuning, built in-house in the Bay of Plenty.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&q=70&fm=jpg">
+<meta property="og:image" content="https://highflow-performance-ltd-demo.vercel.app/images/workshop-9.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f2541b'/%3E%3Ctext x='32' y='46' font-family='Arial Black, sans-serif' font-size='40' font-weight='900' fill='%231a1613' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -211,18 +211,24 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
   html{scroll-behavior:auto}
   .reveal{opacity:1;transform:none}
 }
+.logo img{width:220px;height:auto;max-height:74px;object-fit:contain}
+.build-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.build-gallery figure{margin:0;overflow:hidden;border-radius:var(--radius);background:var(--ink)}
+.build-gallery img{width:100%;aspect-ratio:3/4;object-fit:cover}
+@media(max-width:900px){.build-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.build-gallery{grid-template-columns:1fr}.logo img{width:180px}}
 </style>
 </head>
 <body>
 
-<div id="intro" aria-hidden="true"><span>HIGHFLOW <em>PERFORMANCE</em></span></div>
+<div id="intro" aria-hidden="true"><span><img src="images/highflow-logo.png" alt="Highflow Performance" width="240" height="80"></span></div>
 
 <header>
   <nav class="nav" aria-label="Main">
-    <a class="logo" href="#top">HIGHFLOW <em>PERFORMANCE</em></a>
+    <a class="logo" href="#top"><img src="images/highflow-logo.png" alt="Highflow Performance" width="240" height="80"></a>
     <ul class="nav-links">
       <li><a href="#services">Services</a></li>
-      <li><a href="#about">Workshop</a></li>
+      <li><a href="#about">Workshop</a></li><li><a href="#builds">Builds</a></li>
       <li><a href="#reviews">Reviews</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a class="nav-phone" href="tel:+64211367162">
@@ -236,6 +242,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
   <div class="m-menu" id="mmenu">
     <a href="#services">Services</a>
     <a href="#about">Workshop</a>
+    <a href="#builds">Builds</a>
     <a href="#reviews">Reviews</a>
     <a href="#contact">Contact</a>
     <a class="m-call" href="tel:+64211367162">Call 021 136 7162</a>
@@ -247,9 +254,9 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
 <!-- HERO -->
 <section class="hero" aria-label="Highflow Performance">
   <div class="hero-slides" aria-hidden="true">
-    <div class="hero-slide on" style="background-image:url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1900&q=72&fm=jpg')"></div>
-    <div class="hero-slide" data-src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1900&q=72&fm=jpg"></div>
-    <div class="hero-slide" data-src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1900&q=72&fm=jpg"></div>
+    <div class="hero-slide on" style="background-image:url('images/workshop-9.jpg')"></div>
+    <div class="hero-slide" data-src="images/workshop-10.jpg"></div>
+    <div class="hero-slide" data-src="images/workshop-3.jpg"></div>
   </div>
   <div class="wrap hero-inner">
     <span class="hero-eyebrow">Omanawa · Bay of Plenty</span>
@@ -278,7 +285,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
     </div>
     <div class="svc-grid">
       <article class="svc-card reveal">
-        <figure><img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=70&fm=jpg" alt="Hands working on an engine with a spanner" width="800" height="600" loading="lazy"></figure>
+        <figure><img src="images/workshop-10.jpg" alt="Turbocharger and fabricated exhaust manifold on an engine" width="1600" height="1200" loading="lazy" decoding="async"></figure>
         <div class="svc-body">
           <span class="svc-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Fabrication</span>
           <h3>Custom stainless exhausts</h3>
@@ -286,7 +293,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
         </div>
       </article>
       <article class="svc-card reveal">
-        <figure><img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=800&q=70&fm=jpg" alt="Wall of spanners and hand tools in a workshop" width="800" height="600" loading="lazy"></figure>
+        <figure><img src="images/workshop-10.jpg" alt="Turbocharger and fabricated exhaust manifold on an engine" width="1600" height="1200" loading="lazy" decoding="async"></figure>
         <div class="svc-body">
           <span class="svc-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>Boost</span>
           <h3>Turbo manifolds</h3>
@@ -294,7 +301,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
         </div>
       </article>
       <article class="svc-card reveal">
-        <figure><img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=800&q=70&fm=jpg" alt="Technician working deep in an engine bay" width="800" height="600" loading="lazy"></figure>
+        <figure><img src="images/workshop-7.jpg" alt="Engine being lifted into a white sedan" width="1600" height="1200" loading="lazy" decoding="async"></figure>
         <div class="svc-body">
           <span class="svc-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="1"/><path d="M16 7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v3"/></svg>Conversions</span>
           <h3>Engine conversions</h3>
@@ -302,7 +309,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
         </div>
       </article>
       <article class="svc-card reveal">
-        <figure><img src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=800&q=70&fm=jpg" alt="Car with headlights on in a dark workshop" width="800" height="600" loading="lazy"></figure>
+        <figure><img src="images/workshop-9.jpg" alt="Detailed performance engine bay with purple fittings" width="1600" height="1200" loading="lazy" decoding="async"></figure>
         <div class="svc-body">
           <span class="svc-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>Tuning</span>
           <h3>ECU wiring and tuning</h3>
@@ -310,7 +317,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
         </div>
       </article>
       <article class="svc-card reveal">
-        <figure><img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&q=70&fm=jpg" alt="Finished performance coupe parked at dusk" width="800" height="600" loading="lazy"></figure>
+        <figure><img src="images/workshop-2.jpg" alt="White performance sedan outside the workshop" width="1600" height="1200" loading="lazy" decoding="async"></figure>
         <div class="svc-body">
           <span class="svc-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Compliance</span>
           <h3>Cert-ready builds</h3>
@@ -318,7 +325,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
         </div>
       </article>
       <article class="svc-card reveal">
-        <figure><img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=70&fm=jpg" alt="Vehicle with bonnet up in a service bay" width="800" height="600" loading="lazy"></figure>
+        <figure><img src="images/workshop-8.jpg" alt="White sedan with a modified engine and front-mounted intercooler" width="1600" height="1200" loading="lazy" decoding="async"></figure>
         <div class="svc-body">
           <span class="svc-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>Upkeep</span>
           <h3>Performance servicing</h3>
@@ -333,7 +340,7 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
 <section id="about">
   <div class="wrap about-grid">
     <div class="about-photo reveal">
-      <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=900&q=70&fm=jpg" alt="Mechanic topping up oil in an engine bay" width="900" height="675" loading="lazy">
+      <img src="images/workshop-1.jpg" alt="Highflow team working on a blue performance car" width="1600" height="1200" loading="lazy" decoding="async">
     </div>
     <div class="about-copy reveal">
       <h2>A fabrication workshop, not a parts fitter</h2>
@@ -347,6 +354,19 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
     </div>
   </div>
 </section>
+
+<section id="builds"><div class="wrap"><div class="sec-head"><h2>Inside the workshop</h2><p>Builds, fabrication and details from Highflow Performance.</p></div><div class="build-gallery">
+<figure><img src="images/workshop-9.jpg" alt="Detailed performance engine bay with purple fittings" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-10.jpg" alt="Turbocharger and fabricated exhaust manifold on an engine" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-3.jpg" alt="Brown modified hatchback on a trailer" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-2.jpg" alt="White performance sedan outside the workshop" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-8.jpg" alt="White sedan with a modified engine and front-mounted intercooler" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-7.jpg" alt="Engine being lifted into a white sedan" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-5.jpg" alt="Brown hatchback undergoing rear suspension work" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-4.jpg" alt="Rear interior fabrication and racing seats in the brown hatchback" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-6.jpg" alt="Underbody fabrication on the brown hatchback" loading="lazy" decoding="async"></figure>
+<figure><img src="images/workshop-1.jpg" alt="Highflow team working on a blue performance car" loading="lazy" decoding="async"></figure>
+</div></div></section>
 
 <!-- CREW -->
 <section id="crew">
@@ -482,14 +502,14 @@ footer.site{background:#14110e;color:var(--text-inv-dim);padding:56px 0 30px}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a class="logo" href="#top">HIGHFLOW <em>PERFORMANCE</em></a>
+        <a class="logo" href="#top"><img src="images/highflow-logo.png" alt="Highflow Performance" width="240" height="80"></a>
         <p>Performance fabrication, engine conversions and tuning at Omanawa in the Bay of Plenty.</p>
       </div>
       <div>
         <h3>Site</h3>
         <ul>
           <li><a href="#services">Services</a></li>
-          <li><a href="#about">Workshop</a></li>
+          <li><a href="#about">Workshop</a></li><li><a href="#builds">Builds</a></li>
           <li><a href="#reviews">Reviews</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
